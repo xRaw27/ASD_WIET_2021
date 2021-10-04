@@ -38,13 +38,4 @@ def lis(A):
     print(count)
 
 
-# lis([0, 8, 4, 12, 2, 10, 6])
-start = time()
-# lis([10 * k + i for k in range(8) for i in range(6, 0, -1)])
-A = [10 * k + i for k in range(8) for i in range(6, 0, -1)]
-lis(A)
-
-print(len(A))
-print(A)
-
-print(time() - start)
+lis([0, 8, 4, 12, 2, 10, 6])
